@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="lineWidth" format="dimension" />
+    <attr name="lineColor" format="color" />
+    <attr name="circleRadius" format="dimension" />
+    <attr name="circleColor" format="color" />
+    <attr name="circleTextColor" format="color" />
+    <attr name="circleTextSize" format="dimension" />
+
+    <declare-styleable name="NodeVerticalProgressView">
+        <attr name="lineWidth" />
+        <attr name="lineColor" />
+        <attr name="circleRadius" />
+        <attr name="circleColor" />
+        <attr name="circleTextColor" />
+        <attr name="circleTextSize" />
+        <attr name="rightTextMarginLeft" format="dimension" />
+        <attr name="rightTextColor" format="color" />
+        <attr name="rightTextSize" format="dimension" />
+        <attr name="interval" format="dimension" />
+    </declare-styleable>
+
+    <declare-styleable name="NodeHorizontalProgressView">
+        <attr name="lineWidth" />
+        <attr name="lineColor" />
+        <attr name="circleRadius" />
+        <attr name="circleColor" />
+        <attr name="circleTextColor" />
+        <attr name="circleTextSize" />
+        <attr name="column" format="integer" />
+    </declare-styleable>
+</resources>

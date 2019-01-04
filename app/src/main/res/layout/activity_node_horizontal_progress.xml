@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".NodeHorizontalProgressActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.example.administrator.mynodeprogressview.widget.NodeHorizontalProgressView
+            android:id="@+id/nodeProgressHorizontalView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:circleColor="#feb318"
+            app:circleRadius="36px"
+            app:circleTextColor="#fff"
+            app:circleTextSize="42px"
+            app:interval="144px"
+            app:lineColor="#feb318"
+            app:lineWidth="3px"
+            app:column="6" />
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
